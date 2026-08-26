@@ -1,6 +1,3 @@
-Aqui está o README reestruturado para a pasta `cluster-ha/`, mantendo toda a riqueza técnica do seu texto original, mas alinhado ao padrão limpo e direto de documentação de laboratório:
-
-```markdown
 # 🖥️ HA Cluster — Pacemaker + Corosync + QDevice
 
 Projeto de laboratório implementando um cluster de **Alta Disponibilidade (HA)** com failover automático utilizando hardware físico real (dois servidores Dell PowerEdge T420).
