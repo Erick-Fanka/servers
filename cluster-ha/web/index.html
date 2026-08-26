@@ -1,0 +1,42 @@
+⚠️ No server-2 muda SERVER-1 para SERVER-2 e 192.168.10.1 para 192.168.10.2
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="5">
+  <title>Cluster Status</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #1a1a2e;
+      color: white;
+    }
+    .card {
+      text-align: center;
+      padding: 40px;
+      border-radius: 16px;
+      background: #16213e;
+      border: 2px solid #0f3460;
+      min-width: 400px;
+    }
+    h1 { font-size: 2.5em; margin-bottom: 10px; }
+    .server { font-size: 3em; font-weight: bold; color: #e94560; margin: 20px 0; }
+    .ip { font-size: 1.2em; color: #aaa; }
+    .status { margin-top: 20px; padding: 10px; background: #0f3460; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🖥️ Cluster HA</h1>
+    <div class="server">SERVER-1</div>
+    <div class="ip">IP do nó: 192.168.10.1</div>
+    <div class="ip">VIP: 192.168.10.100</div>
+    <div class="status">✅ Apache rodando neste nó</div>
+  </div>
+</body>
+</html>
