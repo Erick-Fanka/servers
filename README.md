@@ -72,8 +72,6 @@ Configuração de um servidor DHCP para distribuição dinâmica de endereços I
 - [ ] **DNS Server:** Configuração de Bind9 (cache, forwarder e zonas diretas/reversas).
 - [ ] **Web Server:** Hardening e configuração avançada de Apache/Nginx com SSL.
 - [ ] **File Server:** Implementação de Samba (SMB/CIFS) e NFS.
-- [ ] **Monitoring:** Configuração de monitoramento com Zabbix ou Prometheus.
-- [ ] **Mail Server:** Laboratório básico de Postfix e Dovecot.
 
 ---
 
