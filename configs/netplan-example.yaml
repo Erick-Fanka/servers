@@ -1,0 +1,15 @@
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    ens18:   # Aqui você deve consultar o nome da sua placa de rede pode ser com 'ip a'
+      dhcp4: no
+      addresses:
+        - x.x.x.x/24  # Modifique o IP conforme o necessário 
+      routes:
+        - to: default
+          via: x.x.x.x # Adicione o Gateway da sua rede
+      nameservers:
+        addresses:
+          - 8.8.8.8
+          - 8.8.4.4
