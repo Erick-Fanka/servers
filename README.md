@@ -6,7 +6,8 @@
 
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
-[![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)](https://www.debian.org/)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
+![ZeroTier](https://img.shields.io/badge/ZeroTier-FFB441?style=for-the-badge&logo=zerotier&logoColor=black)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-brightgreen?style=for-the-badge)](#)
@@ -48,6 +49,9 @@ servers/
 │   ├── docs/          # Documentação e anotações
 │   └── README.md
 │
+|── proxmox/              # Pasta dedicada ao PROXMOX
+│   ├── zerotier-subnet-router/       # FORWARDING e NAT com LXC
+│   └── README.md
 └── README.md          # Documentação principal do repositório
 ```
 
