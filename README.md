@@ -49,7 +49,7 @@ servers/
 │   ├── docs/          # Documentação e anotações
 │   └── README.md
 │
-|── proxmox/              # Pasta dedicada ao PROXMOX
+│── proxmox/              # Pasta dedicada ao PROXMOX
 │   ├── zerotier-subnet-router/       # FORWARDING e NAT com LXC
 │   └── README.md
 └── README.md          # Documentação principal do repositório
